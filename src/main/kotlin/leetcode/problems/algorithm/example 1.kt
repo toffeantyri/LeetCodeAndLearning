@@ -21,7 +21,7 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 */
 
-class Solution {
+private class Solution {
     //нормальный ответ
     fun twoSum(nums: IntArray, target: Int): IntArray {
         for ((i, v) in nums.withIndex()) {

@@ -4,7 +4,7 @@ import java.util.*
 
 
 //5% лучше чем другие
-class Solution3 {
+private class Solution3 {
     fun lengthOfLongestSubstring(s: String): Int {
         val array = arrayListOf<HashSet<Char>>(hashSetOf())
         for ((i, v) in s.withIndex()) {

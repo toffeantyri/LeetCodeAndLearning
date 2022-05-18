@@ -13,7 +13,7 @@ package leetcode.problems.algorithm
 Выход: 2.50000
 Объяснение: объединенный массив = [1,2,3,4], а медиана равна (2 + 3) / 2 = 2.5.*/
 
-class Solution4 {
+private class Solution4 {
     //Runtime: 343 ms, faster than 77.27%
     fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
         val al = arrayListOf<Int>()
